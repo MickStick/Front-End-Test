@@ -20,7 +20,7 @@ Additionally, time should display in (H)H:MM format, but currently 12:07 display
 There seems to be an issue with total price sometimes. On some order details, the total price is displaying values after the penny.
 
 ### Dev Notes / Response
-
+- When displaying the total in the tables, it's now being rounded off to 2 decimal places
 
 ---
 

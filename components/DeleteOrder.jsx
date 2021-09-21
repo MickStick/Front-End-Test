@@ -27,8 +27,8 @@ function DeleteOrder({ data, actions }) {
                 <button
                     type="button" 
                     className="deleteButton"
-                    onClick={confirmDelete()}
-                >
+                    onClick={confirmDelete}
+                >{/* Change how cnfirmDelete is being passed to onClick */}
                     Trash it!
                 </button>
             </div>

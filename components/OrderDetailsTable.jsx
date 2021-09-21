@@ -43,7 +43,7 @@ function OrderDetailsTable({ data, actions }) {
                         <td />
                         <td />
                         <td>{totalQuantity}</td>
-                        <td>{'$'+parseFloat(totalPrice).toFixed(2)}</td> // Parsed to float then fixed the decimal place to 2 places
+                        <td>{'$'+parseFloat(totalPrice).toFixed(2)}</td> {/* Parsed to float then fixed the decimal place to 2 places */}
                     </tr>
                 </tbody>
             </table>

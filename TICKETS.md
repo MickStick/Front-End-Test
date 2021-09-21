@@ -8,7 +8,9 @@ When viewing the Customer Orders table, the times don't always display correctly
 Additionally, time should display in (H)H:MM format, but currently 12:07 displays as 12:7.
 
 ### Dev Notes / Response
-
+- I Added a time of day indicator variable to get am or pm values, depending on if the getHours value is greater than 12
+- Checked if getHours value is larger than 12 then use the difference between it and 12 if so, else just use the getHours value itself
+- I added padding to the minutes value with a 0 at the start when it's only sinle digits
 
 ---
 
